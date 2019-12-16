@@ -1,0 +1,132 @@
+/* Hoja de estilos Jesús Marcos */
+
+@media only screen and (max-width: 500px) {
+    header {
+        background-image: url(imagenes/header2.png);
+    }
+}
+
+/* General */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+ /* Cuerpo */
+body {background-color: rgb(236, 207, 233)}
+
+/* Bordes, seleccionamos el fondo del interior */
+#wrapper {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(226, 226, 226);
+}
+
+/* Encabezado */
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 17.8vw;
+    margin-top: 0.7%;
+    background-image: url(imagenes/header.jpg);
+}
+
+
+header span {
+    position: relative;
+    color: white;
+    top: 42%;
+    left: 3%;
+    font-weight: bold;
+    font-size: 2.6vw;
+}
+
+/* Nav, ya no sirve porque lo quité */
+nav {
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 0;
+}
+
+nav ul {
+    margin-left: 3%;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2vw;
+    border-radius: 10px;
+    background-color: rgb(91, 191, 235);
+    padding: 0.4vw;
+}
+
+nav ul li a:hover { color: navy; }   
+
+/* Texto  */
+
+h2{
+    margin-top: 2%;
+    color:rgb(255, 110, 146);
+    text-align: center;
+}
+
+
+
+section p{
+    text-indent: 2vw;
+    margin: 1.5vw;
+}
+
+section li {
+    margin-left: 4%;
+    
+}
+
+footer {
+    background-color: rgb(39, 128, 236);
+    margin-top: 1%;
+}
+
+/* Footer */
+footer p {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#section2 {width: 650px;
+          height: 750px;
+        border: 3px solid rgb(163,158,204);
+        background-color: rgba(255, 255, 255, 0.646);
+        margin: 0 auto;
+        margin-top: 40px;
+        border-radius: 15px;
+        }
+
+/* Imágenes */
+img{
+    padding: 1vw;
+    width: 21%;
+    margin-left: 1.2%;
+    border-radius: 35px;
+
+
+    
+}
+
+section table tr td p{
+    text-indent: 0vw;
+    text-align: center;
+}
+
